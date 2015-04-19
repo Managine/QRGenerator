@@ -1,0 +1,122 @@
+﻿生成启动时间为 2015/5/17 18:45:50。
+     1>项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ILibQREncode /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt LibQREncode\bitstream.c LibQREncode\mask.c LibQREncode\mmask.c LibQREncode\mqrspec.c LibQREncode\qrencode.c LibQREncode\qrinput.c LibQREncode\qrspec.c LibQREncode\rscode.c LibQREncode\split.c
+         bitstream.c
+         mask.c
+     1>LibQREncode\mask.c(34): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mask.c(35): error C2085: “Mask_writeFormatInformation”: 不在形参表中
+     1>LibQREncode\mask.c(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mask.c(177): warning C4013: “Mask_writeFormatInformation”未定义；假设外部返回 int
+     1>LibQREncode\mask.c(188): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mask.c(189): error C2085: “Mask_calcN1N3”: 不在形参表中
+     1>LibQREncode\mask.c(189): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mask.c(221): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mask.c(222): error C2085: “Mask_calcN2”: 不在形参表中
+     1>LibQREncode\mask.c(222): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mask.c(244): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mask.c(245): error C2085: “Mask_calcRunLength”: 不在形参表中
+     1>LibQREncode\mask.c(245): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mask.c(274): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mask.c(275): error C2085: “Mask_evaluateSymbol”: 不在形参表中
+     1>LibQREncode\mask.c(275): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mask.c(318): warning C4013: “Mask_evaluateSymbol”未定义；假设外部返回 int
+         mmask.c
+     1>LibQREncode\mmask.c(34): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mmask.c(35): error C2085: “MMask_writeFormatInformation”: 不在形参表中
+     1>LibQREncode\mmask.c(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mmask.c(123): warning C4013: “MMask_writeFormatInformation”未定义；假设外部返回 int
+     1>LibQREncode\mmask.c(128): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\mmask.c(129): error C2085: “MMask_evaluateSymbol”: 不在形参表中
+     1>LibQREncode\mmask.c(129): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\mmask.c(166): warning C4013: “MMask_evaluateSymbol”未定义；假设外部返回 int
+         mqrspec.c
+         qrencode.c
+     1>LibQREncode\qrencode.c(111): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(111): error C2085: “QRraw_free”: 不在形参表中
+     1>LibQREncode\qrencode.c(112): error C2061: 语法错误: 标识符“__STATIC”
+     1>LibQREncode\qrencode.c(162): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(163): error C2085: “QRraw_getCode”: 不在形参表中
+     1>LibQREncode\qrencode.c(163): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(185): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(186): error C2085: “QRraw_free”: 不在形参表中
+     1>LibQREncode\qrencode.c(186): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(210): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(210): error C2085: “MQRraw_free”: 不在形参表中
+     1>LibQREncode\qrencode.c(211): error C2061: 语法错误: 标识符“__STATIC”
+     1>LibQREncode\qrencode.c(260): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(261): error C2085: “MQRraw_getCode”: 不在形参表中
+     1>LibQREncode\qrencode.c(261): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(275): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(276): error C2085: “MQRraw_free”: 不在形参表中
+     1>LibQREncode\qrencode.c(276): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(441): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(442): error C2085: “QRcode_new”: 不在形参表中
+     1>LibQREncode\qrencode.c(442): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(463): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(464): error C2085: “QRcode_encodeMask”: 不在形参表中
+     1>LibQREncode\qrencode.c(464): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(544): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrencode.c(545): error C2085: “QRcode_encodeMaskMQR”: 不在形参表中
+     1>LibQREncode\qrencode.c(545): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrencode.c(629): warning C4013: “QRcode_encodeMaskMQR”未定义；假设外部返回 int
+     1>LibQREncode\qrencode.c(629): warning C4047: “return”:“QRcode *”与“int”的间接级别不同
+     1>LibQREncode\qrencode.c(631): warning C4013: “QRcode_encodeMask”未定义；假设外部返回 int
+     1>LibQREncode\qrencode.c(631): warning C4047: “return”:“QRcode *”与“int”的间接级别不同
+     1>LibQREncode\qrencode.c(718): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(732): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(890): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(899): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(909): error C2065: “MAJOR_VERSION”: 未声明的标识符
+     1>LibQREncode\qrencode.c(912): error C2065: “MINOR_VERSION”: 未声明的标识符
+     1>LibQREncode\qrencode.c(915): error C2065: “MICRO_VERSION”: 未声明的标识符
+     1>LibQREncode\qrencode.c(921): error C2065: “VERSION”: 未声明的标识符
+     1>LibQREncode\qrencode.c(921): warning C4047: “return”:“char *”与“int”的间接级别不同
+         qrinput.c
+     1>LibQREncode\qrinput.c(247): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(248): error C2085: “QRinput_insertStructuredAppendHeader”: 不在形参表中
+     1>LibQREncode\qrinput.c(248): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(959): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(960): error C2085: “QRinput_estimateBitStreamSize”: 不在形参表中
+     1>LibQREncode\qrinput.c(960): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(986): warning C4013: “QRinput_estimateBitStreamSize”未定义；假设外部返回 int
+     1>LibQREncode\qrinput.c(1003): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(1004): error C2085: “QRinput_lengthOfCode”: 不在形参表中
+     1>LibQREncode\qrinput.c(1004): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(1355): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(1356): error C2085: “QRinput_mergeBitStream”: 不在形参表中
+     1>LibQREncode\qrinput.c(1356): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(1398): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(1399): error C2085: “QRinput_getBitStream”: 不在形参表中
+     1>LibQREncode\qrinput.c(1399): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(1431): warning C4013: “QRinput_getBitStream”未定义；假设外部返回 int
+     1>LibQREncode\qrinput.c(1431): warning C4047: “=”:“BitStream *”与“int”的间接级别不同
+     1>LibQREncode\qrinput.c(1556): error C2054: 在“__STATIC”之后应输入“(”
+     1>LibQREncode\qrinput.c(1557): error C2085: “QRinput_splitEntry”: 不在形参表中
+     1>LibQREncode\qrinput.c(1557): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>LibQREncode\qrinput.c(1620): warning C4013: “QRinput_lengthOfCode”未定义；假设外部返回 int
+     1>LibQREncode\qrinput.c(1623): warning C4013: “QRinput_splitEntry”未定义；假设外部返回 int
+     1>LibQREncode\qrinput.c(1690): warning C4013: “QRinput_insertStructuredAppendHeader”未定义；假设外部返回 int
+         qrspec.c
+         rscode.c
+         split.c
+     1>LibQREncode\split.c(45): warning C4273: “strdup”: dll 链接不一致
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 参见“strdup”的前一个定义
+     1>LibQREncode\split.c(98): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(141): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(142): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(143): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(154): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(181): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(211): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(212): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(213): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(224): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(225): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(226): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(237): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>已完成生成项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.98

@@ -1,0 +1,80 @@
+﻿生成启动时间为 2015/5/17 19:23:10。
+     1>项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ILibQREncode /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D HAVE_CONFIG_H /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt LibQREncode\bitstream.c LibQREncode\mask.c LibQREncode\mmask.c LibQREncode\mqrspec.c LibQREncode\qrencode.c LibQREncode\qrinput.c LibQREncode\qrspec.c LibQREncode\rscode.c LibQREncode\split.c
+         bitstream.c
+         mask.c
+         mmask.c
+         mqrspec.c
+         qrencode.c
+     1>LibQREncode\qrencode.c(718): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(732): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(890): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>LibQREncode\qrencode.c(899): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+         qrinput.c
+         qrspec.c
+         rscode.c
+         split.c
+     1>LibQREncode\split.c(98): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(141): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(142): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(143): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(154): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(181): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(211): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(212): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(213): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(224): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(225): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(226): warning C4244: “函数”: 从“__int64”转换到“int”，可能丢失数据
+     1>LibQREncode\split.c(237): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ILibQREncode /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D HAVE_CONFIG_H /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt maskGenerate.cpp pictureTreating.cpp QRGenerator.cpp QRmap.cpp readBMP.cpp stdafx.cpp
+         maskGenerate.cpp
+         pictureTreating.cpp
+     1>pictureTreating.cpp(463): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(546): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(666): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(798): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(896): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(897): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(926): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>pictureTreating.cpp(750): warning C4101: “everages”: 未引用的局部变量
+         QRGenerator.cpp
+         QRmap.cpp
+     1>QRmap.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+     1>QRmap.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+         readBMP.cpp
+     1>readBMP.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>readBMP.cpp(149): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>readBMP.cpp(150): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>readBMP.cpp(168): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>readBMP.cpp(169): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>readBMP.cpp(189): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>readBMP.cpp(190): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         stdafx.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.lib" /MACHINE:X64 /DLL x64\Debug\bitstream.obj
+         x64\Debug\mask.obj
+         x64\Debug\mmask.obj
+         x64\Debug\mqrspec.obj
+         x64\Debug\qrencode.obj
+         x64\Debug\maskGenerate.obj
+         x64\Debug\pictureTreating.obj
+         x64\Debug\QRGenerator.obj
+         x64\Debug\qrinput.obj
+         x64\Debug\qrspec.obj
+         x64\Debug\rscode.obj
+         x64\Debug\split.obj
+         x64\Debug\QRmap.obj
+         x64\Debug\readBMP.obj
+         x64\Debug\stdafx.obj
+            正在创建库 E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.lib 和对象 E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.exp
+         QRGenerator.vcxproj -> E:\Programs\C++\controlSize - 副本\x64\Debug\QRGenerator.dll
+     1>已完成生成项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.46

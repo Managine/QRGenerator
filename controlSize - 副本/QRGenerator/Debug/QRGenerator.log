@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/5/17 18:39:31。
+     1>项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ILibQREncode /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D HAVE_CONFIG_H /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt QRGenerator.cpp
+         QRGenerator.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Programs\C++\controlSize - 副本\Debug\QRGenerator.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Programs\C++\controlSize - 副本\Debug\QRGenerator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Programs\C++\controlSize - 副本\Debug\QRGenerator.lib" /MACHINE:X86 /SAFESEH /DLL Debug\bitstream.obj
+         Debug\mask.obj
+         Debug\mmask.obj
+         Debug\mqrspec.obj
+         Debug\qrencode.obj
+         Debug\maskGenerate.obj
+         Debug\pictureTreating.obj
+         Debug\QRGenerator.obj
+         Debug\qrinput.obj
+         Debug\qrspec.obj
+         Debug\rscode.obj
+         Debug\split.obj
+         Debug\QRmap.obj
+         Debug\readBMP.obj
+         Debug\stdafx.obj
+         QRGenerator.vcxproj -> E:\Programs\C++\controlSize - 副本\Debug\QRGenerator.dll
+     1>已完成生成项目“E:\Programs\C++\controlSize - 副本\QRGenerator\QRGenerator.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.23
