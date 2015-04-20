@@ -4,7 +4,7 @@ All the process could be controled by a few parameters.<br>
 It's very amazing and attractive, if you wish to have a try.
 
 ##How to use
-Run "QRGenerator.py" in the directory "ui"
+Run "QRGenerator.py" in the directory "ui". <br>
 Please refer to the "User Guide.pdf" in the root directory.
 
 ##How to edit
