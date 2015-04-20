@@ -9,4 +9,5 @@ Please refer to the "User Guide.pdf" in the root directory.
 
 ##How to edit
 The directory "controlSize" is used to generate a .dll file for the main function in C language.<br>
+Please copy the "QRGenerator.dll" from "\controlSize\Debug" to "ui" after editing and re-generating. <br>
 And the directory "ui" is the main window written in tkinter.<br>
